@@ -114,7 +114,7 @@ def start_ddos(prox, url, headers, proxies, color):
 def main(proxy):
 	clear()
 	def logo():
-		print(Fore.WHITE+"wael"+Fore.RED+"\n"+Fore.RED+"edam"+Fore.WHITE+"\n"+Fore.WHITE+"███████║░░░██║░░░░░░██║░░░███████║██"+Fore.RED+"\n"+Fore.RED+"████║░░░██║░░░░░░██║░░░██"+Fore.WHITE+"\n"+Fore.WHITE+"██║░░██║░░░██║░░░░░░██║░░░██║░░██║░░░░░░"+Fore.WHITE+"\n"+Fore.WHITE+"░░░░░░░░░░░"+Fore.GREEN+"\n\n Attacks websites using a proxy\n"+Style.RESET_ALL)
+		print(Fore.RED+"\n\n Attacks websites using a proxy\n"+Style.RESET_ALL)
 	logo()
 	url = input(">>>URL ===> ")
 	if url[:4] != "http":
