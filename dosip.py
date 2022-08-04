@@ -128,7 +128,7 @@ def main(proxy):
 		print(Fore.RED+"Incorrect timeout"+Style.RESET_ALL)
 		exit()
 	if proxy == None:
-		req = r.get("https://api.proxyscrape.com/?request=displayproxies")
+		req = r.get("https://api.proxyscrape.com/?request=displayproxies&proxytype=http")
 		array = req.text.split()
 		check_prox(array, qtime)
 		proxfile = "ddprox.txt"
