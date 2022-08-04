@@ -47,7 +47,7 @@ if data == "1":
     sent = 0
     while True:
 
-        sock.sendto(bytes, (ip,port))
+        sock.sendto(bytes, (ip:port))
         sent = sent + 1
         port = port + 1
         print (Fore.RED + "=> Sent %s Packet To %s Throught Port > %s <"%(sent,ip,port))
