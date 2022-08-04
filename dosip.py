@@ -25,8 +25,6 @@ time.sleep(3.5)
 os.system("clear")
 print("🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼")
 
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
 import requests as r, os, threading, sys, random, re, time, click
 from threading import Thread
 from colorama import Fore,Style
@@ -130,7 +128,7 @@ def main(proxy):
 		print(Fore.RED+"Incorrect timeout"+Style.RESET_ALL)
 		exit()
 	if proxy == None:
-		req = r.get("https://api.proxyscrape.com/?request=displayproxies&proxytype=http")
+		req = r.get("https://api.proxyscrape.com/?request=displayproxies")
 		array = req.text.split()
 		check_prox(array, qtime)
 		proxfile = "ddprox.txt"
