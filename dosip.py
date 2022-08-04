@@ -55,11 +55,10 @@ while True:
                           break
                 else:
                         pass
-
         sock.sendto(bytes, (ip,port))
         sent = sent + 1
         port = port + 1
-        print (Fore.RED + "=> Sent %s Packet To %s Throught Port > %s <"%(sent,ip,port))
+        print (Fore.RED + "=> Sent %s packets to %s trough port %s")%(sent, ip, port)
         if port == 65534:
             port = 1
 
