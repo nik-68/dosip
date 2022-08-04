@@ -32,7 +32,7 @@ print (Fore.GREEN + """
 """)
 
 os.system("clear")
-print(Blue + f"З А Г Р У З К А....")
+print("З А Г Р У З К А....")
 time.sleep(1.5)
 os.system("clear")
 print("🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼")
