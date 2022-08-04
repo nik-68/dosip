@@ -37,10 +37,10 @@ os.system("clear")
 print("🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼")
 
 print (Fore.RED + "[1] > Start Attack\n\n[2] > Close")
-data = eval(raw_input("\n\n>>> Enter ( 1 - 2 ) > ")
+data = input("\n\n>>> Enter ( 1 - 2 ) > ")
 if data == "1"
 
-    ip = eval(raw_input("\n\n>>> Enter Target IP => ")
+    ip = input("\n\n>>> Enter Target IP => ")
     port = input("\n\n>>> Enter Port (Default 80) => ")
     print (Fore.BLUE + "\n\nPls Wait...\n\n")
     time.sleep(4)
