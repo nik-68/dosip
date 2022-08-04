@@ -15,7 +15,7 @@ import time
 import socket
 import random
 
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)"
 bytes = random._urandom(1024)
 
 run = os.system
