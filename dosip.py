@@ -36,7 +36,7 @@ time.sleep(2.5)
 os.system("clear")
 print("🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼")
 
-print (Fore.RED + "[1] > Start Attack\n[2] > Close")
+print (Fore.GREEN + "[1] > Start Attack\n[2] > Close")
 data = input("\n>>> Enter ( 1 - 2 ) > ")
 if data == "1":
 
