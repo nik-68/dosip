@@ -114,7 +114,7 @@ def start_ddos(prox, url, headers, proxies, color):
 def main(proxy):
 	clear()
 	def logo():
-		print(Fore.WHITE+"wael"+Fore.RED+"\n"+Fore.RED+"edam"+Fore.WHITE+"\n"+Fore.WHITE+"███████║░░░██║░░░░░░██║░░░███████║██"+Fore.RED+"\n"+Fore.RED+"████║░░░██║░░░░░░██║░░░██"+Fore.WHITE+"\n"+Fore.WHITE+"██║░░██║░░░██║░░░░░░██║░░░██║░░██║░░░░░░"+Fore.WHITE+"\n"+Fore.WHITE+"░░░░░░░░░░░"+Fore.GREEN+"\n\n This tool attacks websites using a proxys \n\n Ex : http://*****.com  \n\n Github: hkqe ~ Telegram:E999G  \n"+Style.RESET_ALL)
+		print(Fore.WHITE+"wael"+Fore.RED+"\n"+Fore.RED+"edam"+Fore.WHITE+"\n"+Fore.WHITE+"███████║░░░██║░░░░░░██║░░░███████║██"+Fore.RED+"\n"+Fore.RED+"████║░░░██║░░░░░░██║░░░██"+Fore.WHITE+"\n"+Fore.WHITE+"██║░░██║░░░██║░░░░░░██║░░░██║░░██║░░░░░░"+Fore.WHITE+"\n"+Fore.WHITE+"░░░░░░░░░░░"+Fore.GREEN+"\n\n This tool attacks websites using a proxy:E\n"+Style.RESET_ALL)
 	logo()
 	url = input(">>>URL ===> ")
 	if url[:4] != "http":
