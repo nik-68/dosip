@@ -38,7 +38,7 @@ print("🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼")
 
 print (Fore.RED + "[1] > Start Attack\n\n[2] > Close")
 data = input("\n\n>>> Enter ( 1 - 2 ) > ")
-if data == "1"
+if data == "1":
 
     ip = input("\n\n>>> Enter Target IP => ")
     port = input("\n\n>>> Enter Port (Default 80) => ")
@@ -54,6 +54,6 @@ if data == "1"
         if port == 65534:
             port = 1
 
-elif data == "2"
+elif data == "2":
     run("exit()")
     run("clear")
