@@ -33,7 +33,7 @@ print (Fore.GREEN + """
 """)
 
 print("З А Г Р У З К А....")
-time.sleep(2.5)
+time.sleep(3.5)
 os.system("clear")
 print("🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼")
 
